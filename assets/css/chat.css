@@ -225,7 +225,10 @@ html, body {
     color: white;
     text-decoration: none;
   }
-
+  .loadgif {
+    margin-top : 30px;
+    color : blue;
+  }
   .cm-msg-button>ul>li:hover {
     opacity: 1
 }
