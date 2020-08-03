@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Chat Bot </title>
+    <link rel="stylesheet" href="assets/css/chat.css">
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+</head>
+
+    <div id="center-text">
+        <h2>Welcome to Fin Chat</h2>
+        <p>We are developing chat bots to help financial service providers acquire & retain customers thanks to AI-powered conversations</p>
+    </div> 
+    <div id="body"> 
+    
+    <div id="chat-circle" class="btn btn-raised">
+            <div id="chat-overlay"></div>
+                <i class="material-icons"><img src="assets/images/chat.png" width="30" height="30" > Click here to start the conversation</i>
+        </div>
+    
+    <div class="chat-box">
+        <div class="chat-box-header">
+        FinChat
+        <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+        </div>
+        <div class="chat-box-body">
+        <div class="chat-box-overlay">   
+        </div>
+        <div class="chat-logs">
+        
+        </div><!--chat-log -->
+        </div>
+        <div class="chat-input">      
+        <form>
+            <input type="text" id="chat-input" placeholder="Send a message..."/>
+        <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+        </form>      
+        </div>
+    </div>
+
+</div>
+
+<script src="assets/js/chat.js"></script>
+</html>
